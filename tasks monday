@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/convert-a-string-to-an-array/train/javascript
+function stringToArray(string){
+return string.split(" ");
+	// code code code
+}
+4 способи.У мене вийшло лише з першим.
+https://www.samanthaming.com/tidbits/83-4-ways-to-convert-string-to-character-array/
