@@ -1,3 +1,4 @@
+1
 https://www.codewars.com/kata/convert-a-string-to-an-array/train/javascript
 function stringToArray(string){
 return string.split(" ");
@@ -5,3 +6,10 @@ return string.split(" ");
 }
 4 способи.У мене вийшло лише з першим. Це тому, що перший спосіб розбиває по словам, а три інші по символам?
 https://www.samanthaming.com/tidbits/83-4-ways-to-convert-string-to-character-array/
+
+2
+https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript
+function DNAtoRNA(dna) {
+  return dna.replace(/T/g, "U");
+  // create a function which returns an RNA sequence from the given DNA sequence
+}
