@@ -33,6 +33,14 @@ function min(arr, toReturn) {
    toReturn minNumber;
    } else if (toReturn === 'index') {
      return num;
+     
+  5
+  https://www.codewars.com/kata/geometry-basics-circle-circumference-in-2d/train/javascript
+  function circleCircumference(circle) {
+const circumferenceCircle = circle.radius * 2 * Math.PI;
+  return circumferenceCircle;
+}
+     
    };
   // TODO
 }
