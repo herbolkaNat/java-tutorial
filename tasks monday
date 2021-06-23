@@ -36,3 +36,17 @@ function min(arr, toReturn) {
    };
   // TODO
 }
+
+WEDNESDAY
+1
+https://www.codewars.com/kata/find-the-smallest-integer-in-the-array/train/javascript
+
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    let currentMinArg = args[0];
+    for(let i = 1; i < args.length; i++;) {
+    if(args[i] < currentMinArg) currentMinArg = args[i];
+  }
+    return currentMinArg;
+  }
+}
